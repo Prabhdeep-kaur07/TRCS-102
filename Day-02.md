@@ -718,9 +718,9 @@ Password not found
 
 ---
 
-## 💻 Hands-on Practice
+## 👩‍💻 Hands-on Practice
 
-### 📝 Program 1: Perform Bitwise Operations
+### Program 1: Perform Bitwise Operations
 
 **Question:** Write a Python program to demonstrate different bitwise operators.
 
@@ -740,7 +740,7 @@ print(~13)
 
 ---
 
-### 📝 Program 2: Membership Operators
+### Program 2: Membership Operators
 
 **Question:** Write a Python program to demonstrate membership operators.
 
@@ -757,7 +757,7 @@ print("apple" in fruits)
 
 ---
 
-### 📝 Program 3: Identity Operators
+### Program 3: Identity Operators
 
 **Question:** Write a Python program to demonstrate identity operators.
 
@@ -778,7 +778,7 @@ print(list_x == list_y)
 
 ---
 
-### 📝 Program 4: Conditional Statements
+### Program 4: Conditional Statements
 
 **Question:** Write a Python program to check whether a number is even and greater than zero. Also check whether it is divisible by 5 or 3.
 
@@ -801,7 +801,7 @@ else:
 
 ---
 
-### 📝 Program 5: Print Even Numbers
+### Program 5: Print Even Numbers
 
 **Question:** Write a Python program to print even numbers from 0 to 10 using the `for` loop.
 
@@ -815,7 +815,7 @@ for i in range(0, 11, 2):
 
 ---
 
-### 📝 Program 6: Multiplication Table of 5
+### Program 6: Multiplication Table of 5
 
 **Question:** Write a Python program to print the multiplication table of 5.
 
@@ -829,7 +829,7 @@ for i in range(0, 11):
 
 ---
 
-### 📝 Program 7: Length of Strings
+### Program 7: Length of Strings
 
 **Question:** Write a Python program to display the number of characters in each programming language.
 
@@ -845,7 +845,7 @@ for i in language:
 
 ---
 
-### 📝 Program 8: Reverse Counting
+### Program 8: Reverse Counting
 
 **Question:** Write a Python program to print numbers in reverse order using a negative step.
 
@@ -859,7 +859,7 @@ for i in range(10, 0, -2):
 
 ---
 
-### 📝 Program 9: Password Strength Checker
+### Program 9: Password Strength Checker
 
 **Question:** Write a Python program to determine whether passwords are strong or weak based on their length.
 
@@ -878,7 +878,7 @@ for i in password:
 
 ---
 
-### 📝 Program 10: Demonstrate `while`, `break`, and `continue`
+### Program 10: Demonstrate `while`, `break`, and `continue`
 
 **Question:** Write a Python program using a `while` loop to demonstrate the use of `break` and `continue`.
 
@@ -903,7 +903,7 @@ while count >= 0:
 
 ---
 
-### 📝 Program 11: Search Using `for...else`
+### Program 11: Search Using `for...else`
 
 **Question:** Write a Python program to search for a password using the `for...else` statement.
 
@@ -924,7 +924,7 @@ else:
 
 ---
 
-### 📝 Program 12: Age Category Classifier
+### Program 12: Age Category Classifier
 
 **Question:** Write a Python program to classify a person based on age.
 
@@ -946,11 +946,22 @@ else:
 
 ---
 
-## 💡 Key Takeaways
+## 💻 What I Practiced
 
-- Understood how bitwise operators manipulate binary data and learned their practical applications.
-- Learned the difference between membership operators and identity operators.
-- Explored the `range()` function with different combinations of `start`, `stop`, and `step`.
-- Gained a solid understanding of `for` and `while` loops for performing repetitive tasks.
-- Learned how `break`, `continue`, `pass`, and `for...else` influence loop execution.
-- Reinforced the concepts by implementing multiple Python programs and observing their outputs.
+- Performed bitwise operations using AND, OR, XOR, NOT, left shift, and right shift operators.
+- Explored one's complement and understood how Python represents negative numbers using two's complement.
+- Practiced membership operators (`in` and `not in`) with lists.
+- Used identity operators (`is` and `is not`) to compare object identities in memory.
+- Worked with conditional statements using logical operators.
+- Used the `range()` function with different combinations of `start`, `stop`, and `step`.
+- Wrote `for` loops to iterate over ranges and lists.
+- Generated a multiplication table using a `for` loop.
+- Printed values in reverse order using a negative step value.
+- Implemented a password strength checker using loops and conditional statements.
+- Practiced `while` loops along with the `break` and `continue` statements.
+- Used the `for...else` statement to search for an element in a list.
+- Developed programs to classify data based on conditions using `if`, `elif`, and `else`.
+
+## 💡 Key Takeaway
+
+Today's session strengthened my understanding of Python operators and program flow control. I learned how bitwise operators manipulate data at the binary level, how membership and identity operators work, and how loops automate repetitive tasks efficiently. I also explored loop control statements such as `break`, `continue`, `pass`, and the `for...else` construct, enabling me to write more structured and efficient programs. These concepts are fundamental for solving programming problems and will play an important role in implementing algorithms, data processing tasks, and Machine Learning applications.
