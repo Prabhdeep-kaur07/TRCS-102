@@ -501,16 +501,10 @@ print(df[df["Age"] > 40])
 
 ---
 
-## 💻 What I Practiced
+## 📝 Summary
 
-- Installed and imported the Pandas library.
-- Created Pandas Series from Python lists and NumPy arrays.
-- Built DataFrames using Python dictionaries.
-- Loaded datasets from CSV files using `read_csv()`.
-- Inspected datasets using `head()`, `tail()`, `info()`, `describe()`, `shape`, `dtypes`, and `columns`.
-- Retrieved data using the `loc` and `iloc` indexing methods.
-- Filtered records using Boolean indexing based on specified conditions.
+Today's session introduced me to the fundamentals of Pandas and its importance in data analysis. I learned how to create Series and DataFrames, load datasets from CSV files, inspect the structure of data using built-in functions, retrieve records using `loc` and `iloc`, and filter data using Boolean indexing. These concepts form the foundation of data preprocessing and exploratory data analysis, preparing me for more advanced data manipulation and Machine Learning tasks.
 
 ## 💡 Key Takeaway
 
-Today's session introduced me to **Pandas**, one of the most essential libraries for data analysis in Python. I learned how to create Series and DataFrames, load datasets from CSV files, inspect the structure of data, and retrieve specific records using indexing techniques. I also explored Boolean indexing to filter data efficiently. These concepts form the foundation of data preprocessing and exploratory data analysis, which are critical steps before building Machine Learning models.
+Pandas is one of the most important libraries in Python for data analysis and preprocessing. Learning how to create Series and DataFrames, inspect datasets, retrieve specific records, and filter data efficiently provides a strong foundation for Exploratory Data Analysis (EDA) and Machine Learning workflows.
