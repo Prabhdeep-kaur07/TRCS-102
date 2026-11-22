@@ -1,10 +1,11 @@
-# 📅 **DAY-03** | *24 June 2026*
 
-## 🎯 Today's Goal
+# DAY-03 | 24 June 2026
+
+## Today's Goal
 
 To understand the concept of functions and modular programming, explore commonly used built-in functions, learn how to create custom functions, differentiate between parameters and arguments, and understand the purpose of the `return` statement.
 
-## 📚 Topics Covered
+## Topics Covered
 
 1. Functions
 2. Advantages of Functions
@@ -23,9 +24,9 @@ To understand the concept of functions and modular programming, explore commonly
 6. Parameters and Arguments
 7. Return Statement
 
-## 📖 What I Learned
+## What I Learned
 
-### 📌 Functions
+### Functions
 
 A **function** is a reusable block of code designed to perform a specific task. Instead of writing the same code multiple times, a function allows us to write it once and execute it whenever needed. Functions make programs more organized, readable, and efficient by reducing code duplication.
 
@@ -38,7 +39,7 @@ Functions are widely used in software development, data analysis, machine learni
 
 ---
 
-### 📌 Advantages of Functions
+### Advantages of Functions
 
 Functions offer several benefits that improve the quality and maintainability of programs.
 
@@ -51,7 +52,7 @@ Functions offer several benefits that improve the quality and maintainability of
 
 ---
 
-### 📌 Modular Programming
+### Modular Programming
 
 **Modular Programming** is a programming approach in which a large program is divided into smaller, independent modules or functions. Each module performs a specific task, making the overall program easier to understand, develop, test, and maintain.
 
@@ -66,23 +67,21 @@ Since each function has a single responsibility, modifications can be made witho
 
 ---
 
-# 📌 Built-in Functions
+# Built-in Functions
 
 Python provides several built-in functions that are readily available without requiring additional implementation. These functions simplify common programming tasks and improve code readability.
 
----
-
-## 🔹 `len()`
+## `len()`
 
 The `len()` function returns the number of elements present in an object such as a string, list, tuple, dictionary, or set.
 
-### Syntax
+**Syntax**
 
 ```python
 len(object)
 ```
 
-### Example
+**Example**
 
 ```python
 fruits = ["Apple", "Banana", "Kiwi"]
@@ -90,7 +89,7 @@ fruits = ["Apple", "Banana", "Kiwi"]
 print(len(fruits))
 ```
 
-Output
+**Output**
 
 ```text
 3
@@ -98,17 +97,17 @@ Output
 
 ---
 
-## 🔹 `sum()`
+## `sum()`
 
 The `sum()` function calculates the total sum of all numeric elements in an iterable.
 
-### Syntax
+**Syntax**
 
 ```python
 sum(iterable)
 ```
 
-### Example
+**Example**
 
 ```python
 marks = [80, 75, 90, 85]
@@ -116,7 +115,7 @@ marks = [80, 75, 90, 85]
 print(sum(marks))
 ```
 
-Output
+**Output**
 
 ```text
 330
@@ -124,17 +123,17 @@ Output
 
 ---
 
-## 🔹 `min()`
+## `min()`
 
 The `min()` function returns the smallest element from an iterable.
 
-### Syntax
+**Syntax**
 
 ```python
 min(iterable)
 ```
 
-### Example
+**Example**
 
 ```python
 numbers = [10, 25, 3, 50]
@@ -142,7 +141,7 @@ numbers = [10, 25, 3, 50]
 print(min(numbers))
 ```
 
-Output
+**Output**
 
 ```text
 3
@@ -150,17 +149,17 @@ Output
 
 ---
 
-## 🔹 `max()`
+## `max()`
 
 The `max()` function returns the largest element from an iterable.
 
-### Syntax
+**Syntax**
 
 ```python
 max(iterable)
 ```
 
-### Example
+**Example**
 
 ```python
 numbers = [10, 25, 3, 50]
@@ -168,7 +167,7 @@ numbers = [10, 25, 3, 50]
 print(max(numbers))
 ```
 
-Output
+**Output**
 
 ```text
 50
@@ -176,23 +175,23 @@ Output
 
 ---
 
-## 🔹 `abs()`
+## `abs()`
 
 The `abs()` function returns the absolute (positive) value of a number.
 
-### Syntax
+**Syntax**
 
 ```python
 abs(number)
 ```
 
-### Example
+**Example**
 
 ```python
 print(abs(-15))
 ```
 
-Output
+**Output**
 
 ```text
 15
@@ -200,23 +199,23 @@ Output
 
 ---
 
-## 🔹 `round()`
+## `round()`
 
 The `round()` function rounds a floating-point number to the nearest integer or to the specified number of decimal places.
 
-### Syntax
+**Syntax**
 
 ```python
 round(number, digits)
 ```
 
-### Example
+**Example**
 
 ```python
 print(round(3.14159, 2))
 ```
 
-Output
+**Output**
 
 ```text
 3.14
@@ -224,17 +223,17 @@ Output
 
 ---
 
-## 🔹 `print()`
+## `print()`
 
 The `print()` function displays output on the screen. It is one of the most frequently used built-in functions in Python and is primarily used for displaying messages, variables, and program results.
 
-### Syntax
+**Syntax**
 
 ```python
 print(object)
 ```
 
-### Example
+**Example**
 
 ```python
 language = "Python"
@@ -242,13 +241,15 @@ language = "Python"
 print("Welcome to", language)
 ```
 
-Output
+**Output**
 
 ```text
 Welcome to Python
 ```
 
-# 📌 Custom Functions
+---
+
+# Custom Functions
 
 A **custom function**, also known as a **user-defined function**, is a function created by the programmer to perform a specific task. Unlike built-in functions, custom functions are written according to the requirements of the program.
 
@@ -256,27 +257,25 @@ Custom functions help organize code into smaller reusable blocks, making program
 
 In Python, custom functions are created using the `def` keyword.
 
----
-
-## 📌 Defining a Function
+## Defining a Function
 
 Defining a function means creating a reusable block of code by giving it a name and specifying the statements it should execute.
 
-### Syntax
+**Syntax**
 
 ```python
 def function_name(parameters):
     # function body
 ```
 
-### Explanation
+**Explanation**
 
 - `def` is the keyword used to define a function.
 - `function_name` is the name given to the function.
 - `parameters` are optional variables that receive values when the function is called.
 - The indented block contains the statements that the function executes.
 
-### Example
+**Example**
 
 ```python
 def welcome():
@@ -287,17 +286,17 @@ The function has been defined, but it will not execute until it is called.
 
 ---
 
-## 📌 Calling a Function
+## Calling a Function
 
 Calling a function means executing the function after it has been defined.
 
-### Syntax
+**Syntax**
 
 ```python
 function_name()
 ```
 
-### Example
+**Example**
 
 ```python
 def welcome():
@@ -306,7 +305,7 @@ def welcome():
 welcome()
 ```
 
-Output
+**Output**
 
 ```text
 Welcome to AI/ML Training!
@@ -316,20 +315,26 @@ Whenever the function is called, Python executes all the statements inside the f
 
 ---
 
-# 📌 Parameters and Arguments
+# Parameters and Arguments
 
 Parameters and arguments are often confused, but they are different.
 
 - **Parameters** are variables listed in the function definition.
 - **Arguments** are the actual values passed to the function when it is called.
 
-### Example
+**Example**
 
 ```python
 def greet(name):
     print(f"Hello, {name}")
 
 greet("Prabhdeep")
+```
+
+**Output**
+
+```text
+Hello, Prabhdeep
 ```
 
 Here,
@@ -339,10 +344,10 @@ Here,
 
 ---
 
-## 📊 Difference Between Parameters and Arguments
+## Difference Between Parameters and Arguments
 
 | Parameters | Arguments |
-|------------|-----------|
+|---|---|
 | Declared in the function definition. | Passed while calling the function. |
 | Act as placeholders for values. | Are the actual values supplied to the function. |
 | Receive data from the caller. | Send data to the function. |
@@ -350,13 +355,15 @@ Here,
 
 ---
 
-## 📌 Types of Arguments
+## Types of Arguments
 
 Python supports different ways of passing arguments to functions.
 
-### 🔹 Positional Arguments
+### Positional Arguments
 
 Values are passed in the same order as the parameters.
+
+**Example**
 
 ```python
 def student(name, age):
@@ -366,7 +373,7 @@ def student(name, age):
 student("Prabhdeep", 20)
 ```
 
-Output
+**Output**
 
 ```text
 Prabhdeep
@@ -375,9 +382,11 @@ Prabhdeep
 
 ---
 
-### 🔹 Keyword Arguments
+### Keyword Arguments
 
 Arguments are passed using the parameter names, so their order does not matter.
+
+**Example**
 
 ```python
 def student(name, age):
@@ -387,7 +396,7 @@ def student(name, age):
 student(age=20, name="Prabhdeep")
 ```
 
-Output
+**Output**
 
 ```text
 Prabhdeep
@@ -396,9 +405,11 @@ Prabhdeep
 
 ---
 
-### 🔹 Default Arguments
+### Default Arguments
 
 A parameter can have a default value. If no value is provided while calling the function, the default value is used.
+
+**Example**
 
 ```python
 def greet(name="Student"):
@@ -408,7 +419,7 @@ greet()
 greet("Prabhdeep")
 ```
 
-Output
+**Output**
 
 ```text
 Hello Student
@@ -417,13 +428,13 @@ Hello Prabhdeep
 
 ---
 
-# 📌 Return Statement
+# Return Statement
 
 The **`return`** statement is used to send a value back from a function to the place where the function was called. Once a `return` statement is executed, the function immediately terminates, and the returned value can be stored in a variable or used in an expression.
 
 Unlike the `print()` function, which simply displays output on the screen, the `return` statement allows the returned value to be reused later in the program.
 
-### Syntax
+**Syntax**
 
 ```python
 return value
@@ -431,7 +442,7 @@ return value
 
 ---
 
-### Example 1
+## Example 1
 
 ```python
 def add(a, b):
@@ -442,7 +453,7 @@ result = add(10, 20)
 print(result)
 ```
 
-Output
+**Output**
 
 ```text
 30
@@ -450,7 +461,7 @@ Output
 
 ---
 
-### Example 2
+## Example 2
 
 ```python
 def square(number):
@@ -462,7 +473,7 @@ print(value)
 print(value + 10)
 ```
 
-Output
+**Output**
 
 ```text
 25
@@ -473,10 +484,10 @@ In this example, the value returned by the function is stored in a variable and 
 
 ---
 
-## 📌 Difference Between `print()` and `return`
+## Difference Between `print()` and `return`
 
 | `print()` | `return` |
-|-----------|----------|
+|---|---|
 | Displays output on the screen. | Sends a value back to the caller. |
 | Cannot be reused in another calculation. | Returned value can be stored and reused. |
 | Does not terminate the function. | Immediately exits the function after execution. |
@@ -497,7 +508,7 @@ result = add_return(5, 10)
 print(result + 20)
 ```
 
-Output
+**Output**
 
 ```text
 15
@@ -506,13 +517,15 @@ Output
 
 This demonstrates that `return` makes functions reusable, whereas `print()` only displays the output.
 
-## 👩‍💻 Hands-on Practice
+---
 
-### Program 1: Bank Simulator
+# Hands-on Practice
+
+## Program 1: Bank Simulator
 
 **Question:** Write a Python program to simulate a simple banking system that allows the user to check balance, deposit money, withdraw money, and exit the program using a menu-driven approach.
 
-#### Code
+**Code**
 
 ```python
 bal = 1000
@@ -551,16 +564,53 @@ while True:
         break
 ```
 
+**Output**
 
-![Bank Simulator](Images/Day-03/bank-simulator.png)
+```text
+Bank Simulator
+Option 1 : Check Balance
+Option 2 : Deposit
+Option 3 : Withdraw
+Option 4 : Exit
+Enter your choice : 1
+Current balance : 1000
+
+Bank Simulator
+Option 1 : Check Balance
+Option 2 : Deposit
+Option 3 : Withdraw
+Option 4 : Exit
+Enter your choice : 2
+Enter amount to Deposit : 500
+Amount deposited successfully!
+New Balance : 1500
+
+Bank Simulator
+Option 1 : Check Balance
+Option 2 : Deposit
+Option 3 : Withdraw
+Option 4 : Exit
+Enter your choice : 3
+Enter amount to Withdraw : 200
+Amount withdrawn successfully!
+New Balance : 1300
+
+Bank Simulator
+Option 1 : Check Balance
+Option 2 : Deposit
+Option 3 : Withdraw
+Option 4 : Exit
+Enter your choice : 4
+Exiting the System.....
+```
 
 ---
 
-### Program 2: Demonstrate Built-in Functions
+## Program 2: Demonstrate Built-in Functions
 
 **Question:** Write a Python program to demonstrate the use of built-in functions such as `len()`, `sum()`, `abs()`, and `round()`.
 
-#### Code
+**Code**
 
 ```python
 numbers = [10, -20, 23]
@@ -584,16 +634,27 @@ print(round(n, 2))
 print(round(n))
 ```
 
+**Output**
 
-![Built-in Functions](Images/Day-03/builtin-functions.png)
+```text
+3
+8
+13
+4
+10
+20
+23
+12.43
+12
+```
 
 ---
 
-### Program 3: Create and Call a Custom Function
+## Program 3: Create and Call a Custom Function
 
 **Question:** Write a Python program to define and call a simple custom function.
 
-#### Code
+**Code**
 
 ```python
 def welcome():
@@ -602,16 +663,19 @@ def welcome():
 welcome()
 ```
 
+**Output**
 
-![Custom Function](Images/Day-03/custom-function.png)
+```text
+Welcome to Training!
+```
 
 ---
 
-### Program 4: Calculator Using Functions
+## Program 4: Calculator Using Functions
 
 **Question:** Write a Python program to perform arithmetic operations using a custom function and the `return` statement.
 
-#### Code
+**Code**
 
 ```python
 def custom(a, b, s):
@@ -641,16 +705,23 @@ print(custom(10, 50, '*'))
 print(custom(10, 50, '/'))
 ```
 
+**Output**
 
-![Calculator Function](Images/Day-03/calculator-function.png)
+```text
+40
+60
+-40
+500
+0.2
+```
 
 ---
 
-### Program 5: Prime Number Checker (Without Function)
+## Program 5: Prime Number Checker (Without Function)
 
 **Question:** Write a Python program to check whether a given number is prime without using a user-defined function.
 
-#### Code
+**Code**
 
 ```python
 num = int(input("Enter a number: "))
@@ -670,16 +741,20 @@ else:
     print("Not Prime")
 ```
 
+**Output**
 
-![Prime Without Function](Images/Day-03/prime-without-function.png)
+```text
+Enter a number: 17
+Prime
+```
 
 ---
 
-### Program 6: Prime Number Checker (Using Function)
+## Program 6: Prime Number Checker (Using Function)
 
 **Question:** Write a Python program to check whether a number is prime using a user-defined function.
 
-#### Code
+**Code**
 
 ```python
 def prime(n):
@@ -703,12 +778,16 @@ else:
     print("Not Prime")
 ```
 
+**Output**
 
-![Prime Using Function](Images/Day-03/prime-with-function.png)
+```text
+Enter a number: 17
+Prime
+```
 
 ---
 
-## 💻 What I Practiced
+## What I Practiced
 
 - Built a menu-driven Bank Simulator using loops, conditional statements, and modular programming.
 - Practiced commonly used built-in functions such as `len()`, `sum()`, `abs()`, `round()`, `min()`, and `max()`.
@@ -721,6 +800,8 @@ else:
 
 ---
 
-## 💡 Key Takeaway
+## Key Takeaway
 
-Today's session introduced me to one of the most important concepts in Python—**functions**. I learned how functions promote code reusability and modular programming by breaking large programs into smaller, manageable components. I explored several built-in functions, created custom functions, understood the difference between parameters and arguments, and used the `return` statement to produce reusable outputs. By implementing practical programs such as a **Bank Simulator**, **Calculator**, and **Prime Number Checker**, I gained confidence in writing structured, reusable, and maintainable Python code. These concepts form the foundation of software development and are essential for Data Science, Machine Learning, and Artificial Intelligence, where complex tasks are organized into modular and reusable functions.
+Today's session introduced me to one of the most important concepts in Python—**functions**. I learned how functions promote code reusability and modular programming by breaking large programs into smaller, manageable components. I explored several built-in functions, created custom functions, understood the difference between parameters and arguments, and used the `return` statement to produce reusable outputs.
+
+By implementing practical programs such as a **Bank Simulator**, **Calculator**, and **Prime Number Checker**, I gained confidence in writing structured, reusable, and maintainable Python code. These concepts form the foundation of software development and are essential for Data Science, Machine Learning, and Artificial Intelligence, where complex tasks are organized into modular and reusable functions.
