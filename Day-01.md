@@ -1,9 +1,9 @@
-# **🗓️DAY - 01** | *22 June 2026*
+# **DAY - 01** | *22 June 2026*
 
-## 🚀 Beginning My AI/ML Journey
+##  Beginning My AI/ML Journey
 
 
-## 🎯 Today's Goal
+##  Today's Goal
 
 Set up the Python environment and learn the fundamentals of Python programming.
 
@@ -254,12 +254,7 @@ print(f"Division : {a/b}")
 print(f"Floor Division : {a//b}")
 print(f"Modulus : {a%b}")
 print(f"Exponent : {a**b}")
-```
 
-
-![Arithmetic Operators Program](Images/Day-01/arithmetic-operators.png)
-
----
 
 ### Program 2: Calculate Percentage
 
@@ -279,12 +274,7 @@ percentage = (total_marks / 500) * 100
 
 print("Total Marks :", total_marks)
 print("Percentage :", percentage)
-```
 
-
-![Percentage Program](Images/Day-01/percentage-program.png)
-
----
 
 ### Program 3: Find the Greatest of Three Numbers
 
@@ -303,11 +293,7 @@ elif b > a and b > c:
     print("b is greater")
 else:
     print("c is greater")
-```
 
-![Greatest Number Program](Images/Day-01/greatest-number.png)
-
----
 
 ### Program 4: Variables and Memory Address
 
@@ -324,9 +310,7 @@ print(f"x is a variable : {x}")
 print(f"Value of x : {x}")
 print(f"Data Type of x : {type(x)}")
 print(f"Memory address of x (id): {id(x)}")
-```
 
-![Variables Program](Images/Day-01/variables-memory.png)
 
 ## 💻 What I Practiced
 
